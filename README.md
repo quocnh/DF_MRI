@@ -1,18 +1,18 @@
-# FedNIDS: A Federated Learning Framework for Packet-based Network Intrusion Detection System
+# Class Label Conditioning Diffusion Model for Robust Brain Tumor MRI Synthesis
 
 This repository contains the code for the project "Empirical Evaluation of Autoencoder Models for Anomaly Detection in Packet-based NIDS". The code and proposed framework are provided that can be used to reproduce our work for anomaly detection using Autoencoder in packet-based NIDS.
 
 ## Dataset
-https://usf.box.com/s/3hj01f8hslsdazoqmr03tgmbxqk4oroy
+https://usf.box.com/s/cssdhtgudaphhibsf8989mrhzhpn2oj2
 
 ## Paper abstract
 
 **<p align="center">Figure 1: Network traffic anomaly detection framework using autoencoders.</p>**
 <p align="center">
-<img src="https://github.com/quocnh/FedNIDS/blob/main/fig_framework.png"/>
+<img src="https://github.com/quocnh/DF_MRI/blob/main/fig_framework_df.png"/>
 </p>
 
-Network Intrusion Detection Systems (NIDS) play a vital role in safeguarding modern computer networks by identifying malicious activities. Deep Neural Networks (DNNs) have shown promise in enhancing the accuracy of NIDS by capturing intricate patterns within network traffic data. However, the distributed and privacy-sensitive nature of network data, coupled with the limitations of flow-based data in NIDS, poses challenges in training robust and accurate models. To address this, we propose the Federated Network Intrusion Detection System (FedNIDS), a novel framework that combines the power of Federated Learning and DNNs to enhance NIDS accuracy, robustness, and privacy preservation using packet-based data. FedNIDS comprises two key stages: Federated DNN Pre-training and Federated Adversarial Fine-tuning. In the pre-training stage, a global DNN model is collaboratively trained on distributed data, while the fine-tuning stage adapts the model to adversarial attacks. Through comprehensive experiments on real-world datasets, we demonstrate that FedNIDS effectively detects various attack patterns while maintaining high accuracy on benign samples. Our framework showcases robustness against adversarial attacks and the capability to adapt to emerging threats. FedNIDS represents a promising approach for enhancing the security of network infrastructures while respecting data privacy constraints.
+Generating realistic and contextually relevant brain tumor images is a challenging task in medical image synthesis. The scarcity of labeled tumor images, coupled with the intricate similarities and variations between tumor and non-tumor regions, as well as the diverse spectrum of brain tumor types, present formidable barriers to achieving accurate image synthesis. While existing research has explored various techniques for medical image synthesis, there is a gap in investigating the use of label conditional diffusion models for tumor image synthesis, particularly for brain tumors. In this study, we propose a novel approach for robust and trustworthy brain tumor MRI image synthesis using a label conditional diffusion model. By incorporating label conditioning, our approach effectively captures the specific features associated with tumor tissue, resulting in high-quality tumor images. We introduce a trustworthiness control mechanism using evaluation metrics such as Fréchet Inception Distance (FID) and Inception Score (IS) to ensure the generated MRI brain tumor images meet stringent quality, accuracy, and clinical relevance criteria. Our framework demonstrates its efficacy in generating accurate tumor representations, even with a limited and imbalanced dataset. Furthermore, our approach addresses challenges related to image similarities and variations in brain tumor images, surpassing the performance of conditional generative adversarial networks (GANs) by producing realistic details and textures. While sharpness may be limited due to resolution constraints, our conditional diffusion model-based framework fills a critical research gap in brain tumor image synthesis and significantly contributes to the field.
 
 ## Project Structure
 ```
@@ -21,18 +21,16 @@ Network Intrusion Detection Systems (NIDS) play a vital role in safeguarding mod
 |---- README.md
 ```
 
-## Reproduce Exp1:
+## Reproduce 1,2,3:
 ```
-|---- nids_fedavg.ipynb
-|---- nids_centralized.ipynb
-|---- nids_fedprox.ipynb
+|---- Ver3_DiffusionModel_with_DataPre.ipynb
+|---- Ver3_Diffusion Mode_without_PreProcessingl.ipynb
+|---- ver2_diffusion_model_no_condition.ipynb
 ```
-## Reproduce Exp2:
+## Reproduce Exp4:
 ```
-|---- nids_fedavg_2017_2018_silo0more80.ipynb
-|---- nids_fedavg_2017_2018_silo1more80.ipynb
-|---- nids_fedavg_2017_2018_silo2more80.ipynb
-|---- nids_fedavg_2017_2018_silo3more80.ipynb
+|---- GAN
+
 ```
 
 
@@ -41,9 +39,9 @@ If you find this repository useful in your research, please cite the following a
 
 ```
 @article{
-  title={FedNIDS: A Federated Learning Framework for Packet-based Network Intrusion Detection System},
-  author={QUOC H. NGUYEN∗, SOUMYADEEP HORE∗, ANKIT SHAH, and TRUNG LE},
-  journal={ACM Digital Threats: Research and Practice},
+  title={Class Label Conditioning Diffusion Model for Robust Brain Tumor MRI Synthesis},
+  author={Quoc Nguyen, Thang Nguyen, Minh Nguyen, Trung Le},
+  journal={IEEE Computational Intelligence Magazine},
   year={2023}
 }
 

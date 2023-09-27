@@ -29,7 +29,9 @@ Generating realistic and contextually relevant brain tumor images is a challengi
 ```
 ## Reproduce Exp4:
 ```
-|---- GAN
+|----GAN
+     |----Conditional_WGAN.ipynb
+     |----WGAN.ipynb
 
 ```
 

@@ -1,6 +1,6 @@
 # Class Label Conditioning Diffusion Model for Robust Brain Tumor MRI Synthesis
 
-This repository contains the code for the project "Empirical Evaluation of Autoencoder Models for Anomaly Detection in Packet-based NIDS". The code and proposed framework are provided that can be used to reproduce our work for anomaly detection using Autoencoder in packet-based NIDS.
+This repository contains the code for the project "Class Label Conditioning Diffusion Model for Robust Brain Tumor MRI Synthesis".
 
 ## Dataset
 https://usf.box.com/s/cssdhtgudaphhibsf8989mrhzhpn2oj2

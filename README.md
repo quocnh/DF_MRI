@@ -7,7 +7,7 @@ https://usf.box.com/s/cssdhtgudaphhibsf8989mrhzhpn2oj2
 
 ## Paper abstract
 
-**<p align="center">Figure 1: Network traffic anomaly detection framework using autoencoders.</p>**
+**<p align="center">Figure: Proposed Class Label Conditioning Diffusion Model Framework.</p>**
 <p align="center">
 <img src="https://github.com/quocnh/DF_MRI/blob/main/fig_framework_df.png"/>
 </p>
@@ -42,7 +42,7 @@ If you find this repository useful in your research, please cite the following a
 ```
 @article{
   title={Class Label Conditioning Diffusion Model for Robust Brain Tumor MRI Synthesis},
-  author={Quoc Nguyen, Thang Nguyen, Minh Nguyen, Trung Le},
+  author={Quoc Nguyen*, Thang Nguyen, Minh Nguyen, Trung Le},
   journal={IEEE Computational Intelligence Magazine},
   year={2023}
 }

@@ -50,12 +50,8 @@ Generating realistic and contextually relevant brain tumor images is a challengi
 If you find this repository useful in your research, please cite the following articles as: 
 
 ```
-@article{nguyen2023class,
-  title={Class Label Conditioning Diffusion Model for Robust Brain Tumor MRI Synthesis},
-  author={Nguyen, Quoc and Le, Trung and Nguyen, Thang and Nguyen Nhat, Minh},
-  year={2023},
-  publisher={TechRxiv}
-}
+Cite as: Quoc Nguyen , Trung Le , Thang Nguyen , et al. Class Label Conditioning Diffusion Model for Robust Brain Tumor MRI Synthesis. TechRxiv. October 11, 2023.
+DOI: 10.36227/techrxiv.24243829.v1
 
 ```
 

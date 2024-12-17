@@ -13,7 +13,9 @@ https://usf.box.com/s/cssdhtgudaphhibsf8989mrhzhpn2oj2
 </p>
 
 Generating realistic and contextually relevant brain tumor images is a challenging task in medical image synthesis. The scarcity of labeled tumor images, coupled with the intricate similarities and variations between tumor and non-tumor regions, as well as the diverse spectrum of brain tumor types, present formidable barriers to achieving accurate image synthesis. While existing research has explored various techniques for medical image synthesis, there is a gap in investigating the use of label conditional diffusion models for tumor image synthesis, particularly for brain tumors. In this study, we propose a novel approach for robust and trustworthy brain tumor MRI image synthesis using a label conditional diffusion model. By incorporating label conditioning, our approach effectively captures the specific features associated with tumor tissue, resulting in high-quality tumor images. We introduce a trustworthiness control mechanism using evaluation metrics such as Fréchet Inception Distance (FID) and Inception Score (IS) to ensure the generated MRI brain tumor images meet stringent quality, accuracy, and clinical relevance criteria. Our framework demonstrates its efficacy in generating accurate tumor representations, even with a limited and imbalanced dataset. Furthermore, our approach addresses challenges related to image similarities and variations in brain tumor images, surpassing the performance of conditional generative adversarial networks (GANs) by producing realistic details and textures. While sharpness may be limited due to resolution constraints, our conditional diffusion model-based framework fills a critical research gap in brain tumor image synthesis and significantly contributes to the field.
-
+## Output
+[Comparison between with/without class condition](https://github.com/quocnh/DFMRI/blob/main/project4_output.png)
+[Ouput Quality Control](https://github.com/quocnh/DFMRI/blob/main/project4_output1.png)
 ## Project Structure
 ```
 |---- Dataset
